@@ -2,4 +2,8 @@
     <string name="app_name">AbantuDemo</string>
     <string name="SKIP">ignorar</string>
     <string name="GOT_IT">ENTENDI</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
