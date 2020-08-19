@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AbantuDemo</string>
+    <string name="SKIP">ignorar</string>
+    <string name="GOT_IT">ENTENDI</string>
 </resources>
