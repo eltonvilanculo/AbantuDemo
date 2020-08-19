@@ -301,7 +301,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/grey_40"
-                        android:text="Contas de pagamentos" />
+                        android:text="Contas de pagamento" />
 
                     <View
                         android:layout_width="0dp"
