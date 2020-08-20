@@ -73,8 +73,8 @@ public class MainActivity extends AppCompatActivity {
 
         tab_layout.setupWithViewPager(view_pager);
 
-        tab_layout.getTabAt(0).setIcon(R.drawable.ic_music);
-        tab_layout.getTabAt(1).setIcon(R.drawable.ic_movie);
+        tab_layout.getTabAt(0).setIcon(R.drawable.ic_live_tv);
+        tab_layout.getTabAt(1).setIcon(R.drawable.ic_photo_camera);
         tab_layout.getTabAt(2).setIcon(R.drawable.ic_book);
         tab_layout.getTabAt(3).setIcon(R.drawable.ic_games);
 
@@ -106,10 +106,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         viewPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
-        viewPagerAdapter.addFragment(FragmentTabsStore.newInstance(), "Music");    // index 0
-        viewPagerAdapter.addFragment(FragmentTabsStore.newInstance(), "Movies");   // index 1
-        viewPagerAdapter.addFragment(FragmentTabsStore.newInstance(), "Books");    // index 2
-        viewPagerAdapter.addFragment(FragmentTabsStore.newInstance(), "Games");    // index 3
+        viewPagerAdapter.addFragment(FragmentTabsStore.newInstance(), "Novidades");    // index 0
+        viewPagerAdapter.addFragment(FragmentTabsStore.newInstance(), "Paisagens");   // index 1
+        viewPagerAdapter.addFragment(FragmentTabsStore.newInstance(), "Literatura");    // index 2
+        viewPagerAdapter.addFragment(FragmentTabsStore.newInstance(), "Jogos");    // index 3
         viewPager.setAdapter(viewPagerAdapter);
     }
 

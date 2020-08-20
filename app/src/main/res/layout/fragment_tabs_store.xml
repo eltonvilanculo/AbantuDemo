@@ -25,7 +25,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="New Releases"
+                android:text="Novidades"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
             <Button
@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:minWidth="0dp"
-                android:text="MORE"
+                android:text="Ver mais "
                 android:textColor="@color/grey_60" />
 
         </LinearLayout>
@@ -84,14 +84,15 @@
                                 android:layout_height="wrap_content"
                                 android:maxLines="1"
                                 android:singleLine="true"
-                                android:text="Mauris sagittis non elit"
+                                android:text="Minha Paisagem"
                                 android:textAppearance="@style/TextAppearance.Medium.Bold"
                                 android:textColor="@color/grey_90" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Kodaline" />
+                                android:text="Salvador Victor"
+                                />
 
                         </LinearLayout>
 
@@ -145,14 +146,15 @@
                                 android:layout_height="wrap_content"
                                 android:maxLines="1"
                                 android:singleLine="true"
-                                android:text="Aliquam"
+                                android:text="Pérola do índico"
                                 android:textAppearance="@style/TextAppearance.Medium.Bold"
                                 android:textColor="@color/grey_90" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="One Republic" />
+                                android:text="Panguene HeMan"
+                               />
 
                         </LinearLayout>
 
@@ -182,7 +184,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Recommended"
+                android:text="Recomendado"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
             <Button
@@ -191,7 +193,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:minWidth="0dp"
-                android:text="MORE"
+                android:text="Ver mais"
                 android:textColor="@color/grey_60" />
 
         </LinearLayout>
@@ -316,7 +318,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Top Rated"
+                android:text="Melhores classificadas"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
             <Button
